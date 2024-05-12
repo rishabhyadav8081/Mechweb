@@ -23,3 +23,25 @@
     line-height: 1.4;
 }
 
+/* media querry */
+
+@media(max-width:824px){
+    .herotext h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+@media(max-width:650px){
+    .herotext h1{
+        font-size: 40px;
+        font-weight: 400;
+        max-width: 400px;
+        margin: auto;
+    }
+    .herotext p{
+        font-size: 14px;
+        max-width: 500px;
+        margin: 15px auto 20px;
+        line-height: 1.4;
+    }
+}

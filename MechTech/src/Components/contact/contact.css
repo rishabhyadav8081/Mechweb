@@ -45,3 +45,10 @@
     display: block;
     margin: 20px 0;
 }
+/* media querry */
+@media(max-width:650px){
+    .contact{
+        display: block;
+    }
+   
+}

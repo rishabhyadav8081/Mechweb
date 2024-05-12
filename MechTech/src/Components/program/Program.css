@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .program img{
     width: 100%;
@@ -33,10 +32,20 @@
     margin-bottom: 10px;
   
 }
-.program:hover   .caption{
+.program:hover  .caption{
     opacity: 1;
     padding-top: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* media querry */
+@media(max-width:825px){
+   .programs{
+    flex-direction: column;
+   }
+   .program{
+    flex-basis: 100%;
+    margin: 20px;
+   }
 }

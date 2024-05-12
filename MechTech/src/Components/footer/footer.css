@@ -17,3 +17,15 @@
 .footer p{
     margin-left: 20px;
 }
+/* media querry */
+@media(max-width:650px){
+    .footer {
+        display: block;
+        text-align: center;
+        
+    }
+    .footer ul li{
+        margin-right: 10px;
+        padding: 20px;
+    }
+}

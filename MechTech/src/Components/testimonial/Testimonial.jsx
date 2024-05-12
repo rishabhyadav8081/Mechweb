@@ -13,8 +13,7 @@ function Testimonial() {
     {/* <img src={back} className='back-btn' />
     <img src={next} className='next-btn' /> */}
       <div className="slider">
-        <ul>
-            <li>
+        
                 <div className="slide">
                     <div className="user-info">
                         <img src={user1} alt="" />
@@ -27,8 +26,8 @@ function Testimonial() {
                     Overall, my experience at Edusity has been incredibly enriching. The academic environment fostered by dedicated faculty members and diverse peers has allowed me to delve deep into my chosen field of study while encouraging critical thinking and collaboration. The resources available, from state-of-the-art facilities to comprehensive libraries, have greatly supported my academic journey
                     </p>
                 </div>
-            </li>
-            <li>
+            
+            
                 <div className="slide">
                     <div className="user-info">
                         <img src={user2} alt="" />
@@ -41,8 +40,7 @@ function Testimonial() {
                     Overall, my experience at Edusity has been incredibly enriching. The academic environment fostered by dedicated faculty members and diverse peers has allowed me to delve deep into my chosen field of study while encouraging critical thinking and collaboration. The resources available, from state-of-the-art facilities to comprehensive libraries, have greatly supported my academic journey
                     </p>
                 </div>
-            </li>
-            <li>
+    
                 <div className="slide">
                     <div className="user-info">
                         <img src={user3} alt="" />
@@ -55,8 +53,7 @@ function Testimonial() {
                     Overall, my experience at Edusity has been incredibly enriching. The academic environment fostered by dedicated faculty members and diverse peers has allowed me to delve deep into my chosen field of study while encouraging critical thinking and collaboration. The resources available, from state-of-the-art facilities to comprehensive libraries, have greatly supported my academic journey
                     </p>
                 </div>
-            </li>
-            <li>
+            
                 <div className="slide">
                     <div className="user-info">
                         <img src={user4} alt="" />
@@ -69,8 +66,8 @@ function Testimonial() {
                     Overall, my experience at Edusity has been incredibly enriching. The academic environment fostered by dedicated faculty members and diverse peers has allowed me to delve deep into my chosen field of study while encouraging critical thinking and collaboration. The resources available, from state-of-the-art facilities to comprehensive libraries, have greatly supported my academic journey
                     </p>
                 </div>
-            </li>
-        </ul>
+           
+        
       </div>
     </div>
   )

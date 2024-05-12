@@ -45,11 +45,11 @@ function Contact() {
       <div className="contact-col">
         <form onSubmit={onSubmit}>
           <label> Your Name</label>
-          <input type="text" name="name" placeholder='enter your name ' required />
+          <input type="text" name="name" placeholder='Enter Your Name ' required />
           <label> Phone Number</label>
-          <input type="tel" name="number" placeholder='enter your phone number ' required />
+          <input type="tel" name="number" placeholder='Enter Your Phone Number ' required />
           <label> write msg you want to send </label>
-          <textarea name="message" rows="6" placeholder='wriite your msg' required></textarea>
+          <textarea name="message" rows="6" placeholder='Write your Msg' required></textarea>
           <button className='btn dark-btn'>submit now <img src={arrow} alt="" /></button>
         </form>
         <span>{result}</span>

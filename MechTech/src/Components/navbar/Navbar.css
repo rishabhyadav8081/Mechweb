@@ -24,7 +24,7 @@ nav ul li{
 }
 .dark{
     background-color: #212EA0;
-    transition: 0.4s;
+    transition: .4s;
 }
 nav ul li:hover{
     color: rgba(239, 235, 235, 0.82);
@@ -56,7 +56,7 @@ nav ul li:hover{
         z-index: -1;
         width: 200px;
         padding-top: 70px;
-        transition: 0.5s;
+        transition: 0.7s;
     }
     nav ul li{
         display: block;

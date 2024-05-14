@@ -8,8 +8,9 @@ function Footer() {
       </p>
       <ul>
         <li>Terms and Services</li>
-        <li>privecy policy</li>
+        <li>Privacy policy</li>
       </ul>
+
     </div>
   )
 }

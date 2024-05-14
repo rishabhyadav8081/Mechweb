@@ -15,6 +15,12 @@ useEffect(()=>{
       menu ? setmenu(false):setmenu(true)
   }
 
+   useEffect(()=>{
+    document.addEventListener("mousedown",()=>{
+      setmenu(false)
+    })
+   })
+
   return (
     <nav className={`container ${stiky? 'dark':''}`}>
     <img src={logo} className='logo'/>

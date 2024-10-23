@@ -10,9 +10,12 @@ useEffect(()=>{
       window.scrollY>50?setstiky(true):setstiky(false)
     })
 },[])
-  const [menu,setmenu]= useState(false);
-  const toggle = ()=>{
-      menu ? setmenu(false):setmenu(true)
+  const[menu,setmenu]= useState(false);
+  const toggle =()=>{
+    menu? setmenu(false):setmenu(true)  
+  }
+  const clk = ()=>{
+     setmenu(false)
   }
 
    useEffect(()=>{
@@ -33,7 +36,7 @@ useEffect(()=>{
         </Link></li>
         <li><button className='btn'><Link to='contact' smooth={true} offset= {-260} duration={500} >Contact-Us</Link> </button></li>
     </ul>
-    <img src={menuu} className='menu' onClick={toggle}/>
+    <img src={menuu} className='menu' onTouchMove={clk} onClick={toggle}/>
     </nav>
   )
 }
